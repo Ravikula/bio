@@ -1,0 +1,112 @@
+/* text styling*/
+.textStyleLeft{
+    text-align: left;
+}
+
+
+
+/* Gradient styles */
+.purpleGradientText{
+    background-image: linear-gradient(to bottom, #6a45ff, #f198ff); 
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent;
+}
+
+.greenGradientText{
+    background-image: linear-gradient(to bottom, #00a42c, #9df186); 
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent;
+}
+
+
+/* Image styles */
+.mainImage{  
+    width: 130px;
+    height: auto;
+    /* border: 2px solid #a3a3a3; */
+    border-radius: 100%;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+}
+
+/* Section styles */
+
+.sectionOne{
+    margin-top: 200px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.section{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+/* Main Elements */
+
+h1{
+    font-size: 72px;
+    font-weight: bolder;
+    color: rgb(63, 63, 63);   
+}
+
+h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(63, 63, 63);
+}
+
+p{
+    font-size: 18px;
+}
+
+a{
+    color: black;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    max-width: 900px;
+    margin: 0 auto;
+    color: rgb(90, 90, 90);
+}
+
+
+
+.timeline-with-icons {
+    border-left: 1px solid hsl(0, 0%, 90%);
+    position: relative;
+    list-style: none;
+  }
+  
+  .timeline-with-icons .timeline-item {
+    position: relative;
+  }
+  
+  .timeline-with-icons .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+  }
+  
+  .timeline-with-icons .timeline-icon {
+    position: absolute;
+    left: -48px;
+    background-color: hsl(217, 88.2%, 90%);
+    color: hsl(217, 88.8%, 35.1%);
+    border-radius: 50%;
+    height: 31px;
+    width: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
