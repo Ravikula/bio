@@ -1,7 +1,7 @@
-@media only screen and (max-width: 767px) {
+@media (max-width: 1000px) {
     /* CSS for mobile devices */
-    body {
-      margin: 10px; /* Adjust the margin values as per your requirement */
+    .body_class {
+      margin: 8%; /* Adjust the margin values as per your requirement */
     }
   }
 
@@ -108,8 +108,7 @@ body{
   .timeline-with-icons .timeline-icon {
     position: absolute;
     left: -48px;
-    background-color: hsl(217, 88.2%, 90%);
-    color: hsl(217, 88.8%, 35.1%);
+    background-image: linear-gradient(to bottom, #6a45ff, #f198ff);
     border-radius: 50%;
     height: 31px;
     width: 31px;
