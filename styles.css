@@ -1,3 +1,10 @@
+@media only screen and (max-width: 767px) {
+    /* CSS for mobile devices */
+    body {
+      margin: 10px; /* Adjust the margin values as per your requirement */
+    }
+  }
+
 /* text styling*/
 .textStyleLeft{
     text-align: left;
