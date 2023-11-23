@@ -10,11 +10,13 @@
     text-align: left;
 }
 
-
+.years{
+    font-size: 15px;
+}
 
 /* Gradient styles */
 .purpleGradientText{
-    background-image: linear-gradient(to bottom, #6a45ff, #f198ff); 
+    background-image: linear-gradient(to bottom, #6a45ff, #f198ff);
     background-clip: text;
     -webkit-background-clip: text; 
     color: transparent;
@@ -36,6 +38,12 @@
     border-radius: 100%;
     box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
     
+}
+
+.logo_images{  
+    width: 80px;
+    height: auto;
+    /* border: 2px solid #a3a3a3; */
 }
 
 .container{
@@ -61,23 +69,24 @@
 
 h1{
     font-size: 72px;
-    font-weight: bolder;
+    font-weight: bold;
     color: rgb(63, 63, 63);   
 }
 
 h2{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     color: rgb(63, 63, 63);
 }
 
 p{
-    font-size: 18px;
+    font-size: 17px;
 }
 
 a{
     color: black;
 }
+
 
 body{
     font-family: 'Inter', sans-serif;
@@ -95,17 +104,17 @@ body{
     list-style: none;
   }
   
-  .timeline-with-icons .timeline-item {
+.timeline-with-icons .timeline-item {
     position: relative;
   }
   
-  .timeline-with-icons .timeline-item:after {
+.timeline-with-icons .timeline-item:after {
     position: absolute;
     display: block;
     top: 0;
   }
   
-  .timeline-with-icons .timeline-icon {
+.timeline-with-icons .timeline-icon {
     position: absolute;
     left: -48px;
     background-image: linear-gradient(to bottom, #6a45ff, #f198ff);
@@ -115,4 +124,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .table{
+    vertical-align: middle;
   }
