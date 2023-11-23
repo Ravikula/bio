@@ -10,9 +10,11 @@
     text-align: left;
 }
 
-.years{
+.smallText{
     font-size: 15px;
 }
+
+
 
 /* Gradient styles */
 .purpleGradientText{
@@ -41,7 +43,7 @@
 }
 
 .logo_images{  
-    width: 80px;
+    width: 100px;
     height: auto;
     /* border: 2px solid #a3a3a3; */
 }
