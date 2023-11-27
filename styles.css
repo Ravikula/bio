@@ -31,6 +31,10 @@
     color: transparent;
 }
 
+.purpleBg{
+    background-image: linear-gradient(to bottom, #6a45ff, #f198ff);
+}
+
 
 /* Image styles */
 .mainImage{  
