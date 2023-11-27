@@ -131,3 +131,6 @@ body{
   .table{
     vertical-align: middle;
   }
+  .navbar{
+    text-align: center;
+  }
