@@ -151,3 +151,34 @@ body{
     background-color: white;
     box-shadow: 0 4px 2px -2px rgb(236, 236, 236); /* Optional: adds a shadow for better visibility */
 }
+
+.typing-effect {
+    border-right: 0.1em solid #000; /* Cursor effect */
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%; /* Adjust as needed */
+    animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+
+.navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.nav-item {
+    margin: 0 15px; /* Optional: add some margin between nav items */
+}
+
+.collapse.navbar-collapse {
+    justify-content: center;
+}
+  
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: #000; }
+  }
