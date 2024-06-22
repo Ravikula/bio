@@ -3,6 +3,16 @@
     .body_class {
       margin: 8%; /* Adjust the margin values as per your requirement */
     }
+    .navbar-nav {
+        flex-direction: column;
+
+      }
+    
+    .nav-item {
+        width: 100%;
+
+      }
+
   }
 
 /* text styling*/
@@ -11,7 +21,11 @@
 }
 
 .smallText{
-    font-size: 15px;
+    font-size: 13px;
+}
+
+.homeLogoText {
+    font-size: 16px;
 }
 
 
@@ -97,10 +111,11 @@ a{
 body{
     font-family: 'Inter', sans-serif;
     text-align: left;
-    max-width: 900px;
+    max-width: 80%;
     margin: 0 auto;
     color: rgb(90, 90, 90);
 }
+
 
 
 
