@@ -1,5 +1,8 @@
+
+  /*--------------------------------------------MEDIA QUERY----------------------------------------------------*/
 @media (max-width: 1000px) {
     /* CSS for mobile devices */
+
     .body_class {
       margin: 8%; /* Adjust the margin values as per your requirement */
     }
@@ -15,7 +18,12 @@
 
   }
 
-/* text styling*/
+  /*-------------------------------------------------------------------------------------------------------------------*/
+
+
+
+  /*---------------------------------------------TEXT STYLING-----------------------------------------------------------*/
+
 .textStyleLeft{
     text-align: left;
 }
@@ -28,9 +36,9 @@
     font-size: 16px;
 }
 
+  /*-------------------------------------------------------------------------------------------------------------------*/
 
-
-/* Gradient styles */
+  /*------------------------------------------------GRADIENTS------------------------------------------------*/
 .purpleGradientText{
     background-image: linear-gradient(to bottom, #6a45ff, #f198ff);
     background-clip: text;
@@ -49,8 +57,11 @@
     background-image: linear-gradient(to bottom, #6a45ff, #f198ff);
 }
 
+  /*-------------------------------------------------------------------------------------------------------------------*/
 
-/* Image styles */
+
+  /*--------------------------------------------IMAGES-------------------------------------------------------------*/
+
 .mainImage{  
     width: 130px;
     height: auto;
@@ -66,26 +77,39 @@
     /* border: 2px solid #a3a3a3; */
 }
 
+  /*-------------------------------------------------------------------------------------------------------------------*/
+
+
+  /*-----------------------------------------------SECTIONS----------------------------------------------------------*/
+
 .container{
     display: flex;
     justify-content: center; /* Horizontally center */
     align-items: center; /* Vertically center */
 }
 
-/* Section styles */
 
 .sectionOne{
     margin-top: 200px;
     margin-bottom: 150px;
     text-align: center;
+    
 }
 
 .section{
-    margin-top: 50px;
-    margin-bottom: 60px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-bottom: 50px;
 }
 
-/* Main Elements */
+
+  /*-------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+  /*----------------------------------------------MAIN ELEMENTS------------------------------------------------------*/
 
 h1{
     font-size: 72px;
@@ -101,6 +125,7 @@ h2{
 
 p{
     font-size: 17px;
+
 }
 
 a{
@@ -110,14 +135,16 @@ a{
 
 body{
     font-family: 'Inter', sans-serif;
-    text-align: left;
-    max-width: 80%;
+    text-align: center;
     margin: 0 auto;
     color: rgb(90, 90, 90);
+
 }
 
+  /*-------------------------------------------------------------------------------------------------------------------*/
 
 
+  /*------------------------------------------BOOTSTRAP---------------------------------------------------------*/
 
 .timeline-with-icons {
     border-left: 1px solid hsl(0, 0%, 90%);
@@ -150,10 +177,14 @@ body{
   .table{
     vertical-align: middle;
   }
-  .navbar{
-    text-align: center;
-  }
-/* Navigation Bar*/
+
+
+  /*-------------------------------------------------------------------------------------------------------------------*/
+
+
+  /*---------------------------------------------NAVIGATION BAR----------------------------------------------------------*/
+
+
 .sticky-top {
     position: -webkit-sticky;
     position: sticky;
@@ -162,18 +193,12 @@ body{
 }
 
 .navbar {
-
+    text-align: center;
     background-color: white;
     box-shadow: 0 4px 2px -2px rgb(236, 236, 236); /* Optional: adds a shadow for better visibility */
 }
 
-.typing-effect {
-    border-right: 0.1em solid #000; /* Cursor effect */
-    white-space: nowrap;
-    overflow: hidden;
-    width: 100%; /* Adjust as needed */
-    animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
-  }
+
 
 .navbar-nav {
     flex-direction: row;
@@ -187,13 +212,58 @@ body{
 .collapse.navbar-collapse {
     justify-content: center;
 }
+
+/*-------------------------------------------------------------------------------------------------------------------*/
   
-  @keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
+
+/*--------------------------------------------------FOOTER------------------------------------------------------*/
+
+  footer{
+    background-color: #ededed;
+    padding-bottom: 50px;
   }
-  
-  @keyframes blink-caret {
-    from, to { border-color: transparent; }
-    50% { border-color: #000; }
-  }
+
+  .social-icons {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: rgb(64, 64, 64); /* Change to your preferred color */
+    padding: 20px;
+    font-size: 23px; /* Adjust size as needed */
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #c71fec; /* Change hover color to your preferred color */
+}
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------HOME TYPING EFFECT------------------------------------------------------------*/
+
+
+.typing-effect {
+  border-right: 0.1em solid #000; /* Cursor effect */
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%; /* Adjust as needed */
+  animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: #000; }
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------*/
