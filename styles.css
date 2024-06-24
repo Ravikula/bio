@@ -4,7 +4,7 @@
     /* CSS for mobile devices */
 
     .body_class {
-      margin: 8%; /* Adjust the margin values as per your requirement */
+      margin: 3%; /* Adjust the margin values as per your requirement */
     }
     .navbar-nav {
         flex-direction: column;
@@ -267,3 +267,20 @@ body{
 
 
 /*-------------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------SECTION BREAKS-------------------------------------------------------*/
+.hr{
+  margin: 50px auto 50px auto;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #9e9e9e;
+  border-width: 6px;
+  width: 7%;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+
+.btn:hover{
+  background-image: linear-gradient(to bottom, #6a45ff, #f198ff);
+}
