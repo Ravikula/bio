@@ -284,3 +284,19 @@ body{
 .btn:hover{
   background-image: linear-gradient(to bottom, #6a45ff, #f198ff);
 }
+
+.about_me {
+  text-align: left;
+}
+
+.first_cell {
+  vertical-align: top;
+}
+
+.justify_text{
+  text-align: center;
+}
+
+.link_color{
+  color: #6a45ff;
+}
