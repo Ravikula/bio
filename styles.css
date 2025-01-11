@@ -13,11 +13,11 @@
     
     .nav-item {
         width: 100%;
-
       }
 
     .project {
         width: 100%; /* Full width for mobile */
+        flex-direction: column; /* Stack items vertically */
     }
 
     .project-row {
